@@ -1,0 +1,23 @@
+[project]
+name = "live-nvim"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "WaromiV",email = "admin@ascender.space"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai (==0.27.0)",
+    "speechrecognition (==3.14.3)",
+    "pyautogui (==0.9.54)",
+    "pyaudio (==0.2.14)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "pynvim (>=0.5.2,<0.6.0)",
+    "webrtcvad (>=2.0.10,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
