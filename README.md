@@ -1,1 +1,3 @@
 # live nvim gpt
+
+voice recognintion works well but processing with o3 took very long. probably using gpt-5-mini would make this instantly usable and useful but i didnt try yet...
